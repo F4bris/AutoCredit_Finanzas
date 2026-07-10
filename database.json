@@ -1,0 +1,920 @@
+{
+  "users": [
+    {
+      "id": "u_byi5mggg8",
+      "email": "juanperez@gmail.com",
+      "password": "juanperez123",
+      "fullName": "Juan Perez",
+      "createdAt": "2026-07-02T08:40:19.367Z"
+    }
+  ],
+  "clients": [
+    {
+      "id": "c_fs09tdt0w",
+      "userId": "u_byi5mggg8",
+      "nombres": "gerardo",
+      "apellidos": "palacin",
+      "dni": "11111111",
+      "telefono": "999999999",
+      "correo": "gerardo.palacinlazo13@gmail.com",
+      "empleador": "empresa 1",
+      "ingresoMensual": 5000,
+      "createdAt": "2026-07-02T08:42:50.791Z"
+    },
+    {
+      "id": "c_3sm7loelx",
+      "userId": "u_byi5mggg8",
+      "nombres": "Fabrizio",
+      "apellidos": "Tello",
+      "dni": "12345678",
+      "telefono": "123456123",
+      "correo": "robertogonzalesayala@gmail.com",
+      "empleador": "",
+      "ingresoMensual": 3000,
+      "createdAt": "2026-07-10T00:19:34.974Z"
+    }
+  ],
+  "simulations": [
+    {
+      "id": "s_1ae98yh2j",
+      "userId": "u_byi5mggg8",
+      "clientId": "c_fs09tdt0w",
+      "clientName": "gerardo palacin",
+      "name": "Simulación Honda Accord",
+      "vehicle": {
+        "marca": "Honda",
+        "modelo": "Honda Accord",
+        "anio": "2026",
+        "precio": 2112111
+      },
+      "params": {
+        "precioVehiculo": 2112111,
+        "cuotaInicialMonto": 422422.2,
+        "cuotaInicialPct": 20,
+        "cuotaBalonMonto": 633633.3,
+        "cuotaBalonPct": 30,
+        "montoCredito": 1689688.8,
+        "capitalFinanciar": 1056055.5,
+        "moneda": "PEN",
+        "tipoTasa": "TEA",
+        "tasaAnual": 18,
+        "frecuenciaPago": "mensual",
+        "capitalizacion": "diaria",
+        "graciaTipo": "Ninguno",
+        "graciaMeses": 0,
+        "seguroDesgravamenPct": 0.032,
+        "seguroMultirriesgo": 80,
+        "comisionInicial": 500,
+        "comisionPeriodica": 15,
+        "comisionFinal": 0,
+        "fechaDesembolso": "2026-07-10",
+        "tasaDescuento": 12,
+        "plazoMeses": 48
+      },
+      "results": {
+        "cuotaConstanteBase": 39090.58,
+        "cuotaTotalPromedio": 52780.03,
+        "interesTotal": 820292.41,
+        "pagoTotal": 2533941.36,
+        "van": -234290.59,
+        "tir": 1.4293,
+        "tcea": 18.5668,
+        "cronograma": [
+          {
+            "numeroCuota": 1,
+            "fechaVencimiento": "2026-08-10",
+            "saldoInicial": 1689688.8,
+            "interes": 23467.125209288337,
+            "amortizacion": 15623.456243579281,
+            "seguroDesgravamen": 540.700416,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286762,
+            "cuotaTotal": 39726.28,
+            "saldoFinal": 1674065.34
+          },
+          {
+            "numeroCuota": 2,
+            "fechaVencimiento": "2026-09-10",
+            "saldoInicial": 1674065.3437564208,
+            "interes": 23250.13992544796,
+            "amortizacion": 15840.441527419665,
+            "seguroDesgravamen": 535.7009100020547,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39721.28,
+            "saldoFinal": 1658224.9
+          },
+          {
+            "numeroCuota": 3,
+            "fechaVencimiento": "2026-10-10",
+            "saldoInicial": 1658224.902229001,
+            "interes": 23030.141056606328,
+            "amortizacion": 16060.440396261294,
+            "seguroDesgravamen": 530.6319687132803,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39716.21,
+            "saldoFinal": 1642164.46
+          },
+          {
+            "numeroCuota": 4,
+            "fechaVencimiento": "2026-11-10",
+            "saldoInicial": 1642164.4618327399,
+            "interes": 22807.086748798065,
+            "amortizacion": 16283.494704069557,
+            "seguroDesgravamen": 525.4926277864768,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39711.07,
+            "saldoFinal": 1625880.97
+          },
+          {
+            "numeroCuota": 5,
+            "fechaVencimiento": "2026-12-10",
+            "saldoInicial": 1625880.9671286703,
+            "interes": 22580.934566771895,
+            "amortizacion": 16509.646886095732,
+            "seguroDesgravamen": 520.2819094811746,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39705.86,
+            "saldoFinal": 1609371.32
+          },
+          {
+            "numeroCuota": 6,
+            "fechaVencimiento": "2027-01-10",
+            "saldoInicial": 1609371.3202425744,
+            "interes": 22351.641485917513,
+            "amortizacion": 16738.939966950107,
+            "seguroDesgravamen": 514.9988224776239,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286762,
+            "cuotaTotal": 39700.58,
+            "saldoFinal": 1592632.38
+          },
+          {
+            "numeroCuota": 7,
+            "fechaVencimiento": "2027-02-10",
+            "saldoInicial": 1592632.3802756243,
+            "interes": 22119.16388408031,
+            "amortizacion": 16971.417568787314,
+            "seguroDesgravamen": 509.64236168819986,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39695.22,
+            "saldoFinal": 1575660.96
+          },
+          {
+            "numeroCuota": 8,
+            "fechaVencimiento": "2027-03-10",
+            "saldoInicial": 1575660.9627068369,
+            "interes": 21883.457533262426,
+            "amortizacion": 17207.123919605194,
+            "seguroDesgravamen": 504.21150806618783,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286762,
+            "cuotaTotal": 39689.79,
+            "saldoFinal": 1558453.84
+          },
+          {
+            "numeroCuota": 9,
+            "fechaVencimiento": "2027-04-10",
+            "saldoInicial": 1558453.8387872318,
+            "interes": 21644.47759120853,
+            "amortizacion": 17446.10386165909,
+            "seguroDesgravamen": 498.7052284119142,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286762,
+            "cuotaTotal": 39684.29,
+            "saldoFinal": 1541007.73
+          },
+          {
+            "numeroCuota": 10,
+            "fechaVencimiento": "2027-05-10",
+            "saldoInicial": 1541007.7349255728,
+            "interes": 21402.178592874756,
+            "amortizacion": 17688.402859992864,
+            "seguroDesgravamen": 493.12247517618334,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286762,
+            "cuotaTotal": 39678.7,
+            "saldoFinal": 1523319.33
+          },
+          {
+            "numeroCuota": 11,
+            "fechaVencimiento": "2027-06-10",
+            "saldoInicial": 1523319.33206558,
+            "interes": 21156.51444177913,
+            "amortizacion": 17934.067011088497,
+            "seguroDesgravamen": 487.4621862609856,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39673.04,
+            "saldoFinal": 1505385.27
+          },
+          {
+            "numeroCuota": 12,
+            "fechaVencimiento": "2027-07-10",
+            "saldoInicial": 1505385.2650544913,
+            "interes": 20907.43840123191,
+            "amortizacion": 18183.14305163571,
+            "seguroDesgravamen": 481.7232848174373,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286762,
+            "cuotaTotal": 39667.3,
+            "saldoFinal": 1487202.12
+          },
+          {
+            "numeroCuota": 13,
+            "fechaVencimiento": "2027-08-10",
+            "saldoInicial": 1487202.1220028559,
+            "interes": 20654.903085444093,
+            "amortizacion": 18435.67836742353,
+            "seguroDesgravamen": 475.9046790409139,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39661.49,
+            "saldoFinal": 1468766.44
+          },
+          {
+            "numeroCuota": 14,
+            "fechaVencimiento": "2027-09-10",
+            "saldoInicial": 1468766.4436354323,
+            "interes": 20398.860450512446,
+            "amortizacion": 18691.721002355185,
+            "seguroDesgravamen": 470.00526196333834,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39655.59,
+            "saldoFinal": 1450074.72
+          },
+          {
+            "numeroCuota": 15,
+            "fechaVencimiento": "2027-10-10",
+            "saldoInicial": 1450074.722633077,
+            "interes": 20139.261785279326,
+            "amortizacion": 18951.3196675883,
+            "seguroDesgravamen": 464.0239112425847,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39649.61,
+            "saldoFinal": 1431123.4
+          },
+          {
+            "numeroCuota": 16,
+            "fechaVencimiento": "2027-11-10",
+            "saldoInicial": 1431123.4029654888,
+            "interes": 19876.057702065573,
+            "amortizacion": 19214.52375080206,
+            "seguroDesgravamen": 457.95948894895645,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39643.54,
+            "saldoFinal": 1411908.88
+          },
+          {
+            "numeroCuota": 17,
+            "fechaVencimiento": "2027-12-10",
+            "saldoInicial": 1411908.8792146868,
+            "interes": 19609.198127274693,
+            "amortizacion": 19481.383325592942,
+            "seguroDesgravamen": 451.8108413486998,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39637.39,
+            "saldoFinal": 1392427.5
+          },
+          {
+            "numeroCuota": 18,
+            "fechaVencimiento": "2028-01-10",
+            "saldoInicial": 1392427.4958890937,
+            "interes": 19338.632291866517,
+            "amortizacion": 19751.949161001103,
+            "seguroDesgravamen": 445.57679868451004,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286762,
+            "cuotaTotal": 39631.16,
+            "saldoFinal": 1372675.55
+          },
+          {
+            "numeroCuota": 19,
+            "fechaVencimiento": "2028-02-10",
+            "saldoInicial": 1372675.5467280927,
+            "interes": 19064.30872169862,
+            "amortizacion": 20026.272731169007,
+            "seguroDesgravamen": 439.2561749529897,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39624.84,
+            "saldoFinal": 1352649.27
+          },
+          {
+            "numeroCuota": 20,
+            "fechaVencimiento": "2028-03-10",
+            "saldoInicial": 1352649.2739969236,
+            "interes": 18786.175227733518,
+            "amortizacion": 20304.4062251341,
+            "seguroDesgravamen": 432.8477676790156,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286761,
+            "cuotaTotal": 39618.43,
+            "saldoFinal": 1332344.87
+          },
+          {
+            "numeroCuota": 21,
+            "fechaVencimiento": "2028-04-10",
+            "saldoInicial": 1332344.8677717894,
+            "interes": 18504.178896109923,
+            "amortizacion": 20586.402556757697,
+            "seguroDesgravamen": 426.35035768697264,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286762,
+            "cuotaTotal": 39611.93,
+            "saldoFinal": 1311758.47
+          },
+          {
+            "numeroCuota": 22,
+            "fechaVencimiento": "2028-05-10",
+            "saldoInicial": 1311758.4652150318,
+            "interes": 18218.266078076063,
+            "amortizacion": 20872.315374791557,
+            "seguroDesgravamen": 419.7627088688102,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286762,
+            "cuotaTotal": 39605.34,
+            "saldoFinal": 1290886.15
+          },
+          {
+            "numeroCuota": 23,
+            "fechaVencimiento": "2028-06-10",
+            "saldoInicial": 1290886.1498402404,
+            "interes": 17928.38237978323,
+            "amortizacion": 21162.199073084405,
+            "seguroDesgravamen": 413.083567948877,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39598.67,
+            "saldoFinal": 1269723.95
+          },
+          {
+            "numeroCuota": 24,
+            "fechaVencimiento": "2028-07-10",
+            "saldoInicial": 1269723.9507671557,
+            "interes": 17634.47265193751,
+            "amortizacion": 21456.10880093012,
+            "seguroDesgravamen": 406.31166424548985,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39591.89,
+            "saldoFinal": 1248267.84
+          },
+          {
+            "numeroCuota": 25,
+            "fechaVencimiento": "2028-08-10",
+            "saldoInicial": 1248267.8419662258,
+            "interes": 17336.48097930789,
+            "amortizacion": 21754.100473559738,
+            "seguroDesgravamen": 399.4457094291923,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39585.03,
+            "saldoFinal": 1226513.74
+          },
+          {
+            "numeroCuota": 26,
+            "fechaVencimiento": "2028-09-10",
+            "saldoInicial": 1226513.741492666,
+            "interes": 17034.35067008854,
+            "amortizacion": 22056.230782779086,
+            "seguroDesgravamen": 392.48439727765316,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39578.07,
+            "saldoFinal": 1204457.51
+          },
+          {
+            "numeroCuota": 27,
+            "fechaVencimiento": "2028-10-10",
+            "saldoInicial": 1204457.510709887,
+            "interes": 16728.02424511346,
+            "amortizacion": 22362.557207754173,
+            "seguroDesgravamen": 385.42640342716385,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.581452867635,
+            "cuotaTotal": 39571.01,
+            "saldoFinal": 1182094.95
+          },
+          {
+            "numeroCuota": 28,
+            "fechaVencimiento": "2028-11-10",
+            "saldoInicial": 1182094.9535021328,
+            "interes": 16417.443426921236,
+            "amortizacion": 22673.1380259464,
+            "seguroDesgravamen": 378.27038512068253,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39563.85,
+            "saldoFinal": 1159421.82
+          },
+          {
+            "numeroCuota": 29,
+            "fechaVencimiento": "2028-12-10",
+            "saldoInicial": 1159421.8154761863,
+            "interes": 16102.549128667994,
+            "amortizacion": 22988.03232419963,
+            "seguroDesgravamen": 371.0149809523797,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39556.6,
+            "saldoFinal": 1136433.78
+          },
+          {
+            "numeroCuota": 30,
+            "fechaVencimiento": "2029-01-10",
+            "saldoInicial": 1136433.7831519868,
+            "interes": 15783.28144288635,
+            "amortizacion": 23307.300009981274,
+            "seguroDesgravamen": 363.6588106086358,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39549.24,
+            "saldoFinal": 1113126.48
+          },
+          {
+            "numeroCuota": 31,
+            "fechaVencimiento": "2029-02-10",
+            "saldoInicial": 1113126.4831420055,
+            "interes": 15459.579630088232,
+            "amortizacion": 23631.00182277939,
+            "seguroDesgravamen": 356.2004746054418,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39541.78,
+            "saldoFinal": 1089495.48
+          },
+          {
+            "numeroCuota": 32,
+            "fechaVencimiento": "2029-03-10",
+            "saldoInicial": 1089495.481319226,
+            "interes": 15131.382107209412,
+            "amortizacion": 23959.199345658206,
+            "seguroDesgravamen": 348.6385540221524,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286761,
+            "cuotaTotal": 39534.22,
+            "saldoFinal": 1065536.28
+          },
+          {
+            "numeroCuota": 33,
+            "fechaVencimiento": "2029-04-10",
+            "saldoInicial": 1065536.2819735678,
+            "interes": 14798.62643589357,
+            "amortizacion": 24291.955016974058,
+            "seguroDesgravamen": 340.9716102315417,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39526.55,
+            "saldoFinal": 1041244.33
+          },
+          {
+            "numeroCuota": 34,
+            "fechaVencimiento": "2029-05-10",
+            "saldoInicial": 1041244.3269565939,
+            "interes": 14461.249310613619,
+            "amortizacion": 24629.332142254003,
+            "seguroDesgravamen": 333.19818462611005,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39518.78,
+            "saldoFinal": 1016614.99
+          },
+          {
+            "numeroCuota": 35,
+            "fechaVencimiento": "2029-06-10",
+            "saldoInicial": 1016614.9948143398,
+            "interes": 14119.18654662807,
+            "amortizacion": 24971.394906239548,
+            "seguroDesgravamen": 325.3167983405888,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286762,
+            "cuotaTotal": 39510.9,
+            "saldoFinal": 991643.6
+          },
+          {
+            "numeroCuota": 36,
+            "fechaVencimiento": "2029-07-10",
+            "saldoInicial": 991643.5999081003,
+            "interes": 13772.373067770124,
+            "amortizacion": 25318.208385097514,
+            "seguroDesgravamen": 317.32595197059214,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286764,
+            "cuotaTotal": 39502.91,
+            "saldoFinal": 966325.39
+          },
+          {
+            "numeroCuota": 37,
+            "fechaVencimiento": "2029-08-10",
+            "saldoInicial": 966325.3915230029,
+            "interes": 13420.74289406717,
+            "amortizacion": 25669.83855880045,
+            "seguroDesgravamen": 309.22412528736095,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286762,
+            "cuotaTotal": 39494.81,
+            "saldoFinal": 940655.55
+          },
+          {
+            "numeroCuota": 38,
+            "fechaVencimiento": "2029-09-10",
+            "saldoInicial": 940655.5529642024,
+            "interes": 13064.229129188343,
+            "amortizacion": 26026.352323679304,
+            "seguroDesgravamen": 301.00977694854475,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286764,
+            "cuotaTotal": 39486.59,
+            "saldoFinal": 914629.2
+          },
+          {
+            "numeroCuota": 39,
+            "fechaVencimiento": "2029-10-10",
+            "saldoInicial": 914629.2006405231,
+            "interes": 12702.763947717747,
+            "amortizacion": 26387.817505149884,
+            "seguroDesgravamen": 292.68134420496744,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286763,
+            "cuotaTotal": 39478.26,
+            "saldoFinal": 888241.38
+          },
+          {
+            "numeroCuota": 40,
+            "fechaVencimiento": "2029-11-10",
+            "saldoInicial": 888241.3831353732,
+            "interes": 12336.27858225092,
+            "amortizacion": 26754.302870616695,
+            "seguroDesgravamen": 284.2372426033195,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286761,
+            "cuotaTotal": 39469.82,
+            "saldoFinal": 861487.08
+          },
+          {
+            "numeroCuota": 41,
+            "fechaVencimiento": "2029-12-10",
+            "saldoInicial": 861487.0802647565,
+            "interes": 11964.703310312096,
+            "amortizacion": 27125.87814255555,
+            "seguroDesgravamen": 275.6758656847221,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286764,
+            "cuotaTotal": 39461.26,
+            "saldoFinal": 834361.2
+          },
+          {
+            "numeroCuota": 42,
+            "fechaVencimiento": "2030-01-10",
+            "saldoInicial": 834361.202122201,
+            "interes": 11587.967441089759,
+            "amortizacion": 27502.614011777878,
+            "seguroDesgravamen": 266.99558467910435,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286764,
+            "cuotaTotal": 39452.58,
+            "saldoFinal": 806858.59
+          },
+          {
+            "numeroCuota": 43,
+            "fechaVencimiento": "2030-02-10",
+            "saldoInicial": 806858.5881104231,
+            "interes": 11205.999301987978,
+            "amortizacion": 27884.582150879636,
+            "seguroDesgravamen": 258.1947481953354,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286761,
+            "cuotaTotal": 39443.78,
+            "saldoFinal": 778974.01
+          },
+          {
+            "numeroCuota": 44,
+            "fechaVencimiento": "2030-03-10",
+            "saldoInicial": 778974.0059595434,
+            "interes": 10818.726224990973,
+            "amortizacion": 28271.855227876644,
+            "seguroDesgravamen": 249.2716819070539,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286761,
+            "cuotaTotal": 39434.85,
+            "saldoFinal": 750702.15
+          },
+          {
+            "numeroCuota": 45,
+            "fechaVencimiento": "2030-04-10",
+            "saldoInicial": 750702.1507316667,
+            "interes": 10426.074532838278,
+            "amortizacion": 28664.506920029355,
+            "seguroDesgravamen": 240.22468823413337,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.581452867635,
+            "cuotaTotal": 39425.81,
+            "saldoFinal": 722037.64
+          },
+          {
+            "numeroCuota": 46,
+            "fechaVencimiento": "2030-05-10",
+            "saldoInicial": 722037.6438116374,
+            "interes": 10027.969525007937,
+            "amortizacion": 29062.611927859703,
+            "seguroDesgravamen": 231.052046019724,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286764,
+            "cuotaTotal": 39416.63,
+            "saldoFinal": 692975.03
+          },
+          {
+            "numeroCuota": 47,
+            "fechaVencimiento": "2030-06-10",
+            "saldoInicial": 692975.0318837777,
+            "interes": 9624.335463504991,
+            "amortizacion": 29466.245989362695,
+            "seguroDesgravamen": 221.7520102028089,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.581452867686,
+            "cuotaTotal": 39407.33,
+            "saldoFinal": 663508.79
+          },
+          {
+            "numeroCuota": 48,
+            "fechaVencimiento": "2030-07-10",
+            "saldoInicial": 663508.785894415,
+            "interes": 9215.095558452613,
+            "amortizacion": 29875.485894415044,
+            "seguroDesgravamen": 212.32281148621283,
+            "seguroMultirriesgo": 80,
+            "comisionPeriodica": 15,
+            "cuotaBase": 39090.58145286766,
+            "cuotaTotal": 673031.2,
+            "saldoFinal": 0
+          }
+        ],
+        "flujoCaja": [
+          {
+            "periodo": 0,
+            "monto": 1689188.8
+          },
+          {
+            "periodo": 1,
+            "monto": -39726.28
+          },
+          {
+            "periodo": 2,
+            "monto": -39721.28
+          },
+          {
+            "periodo": 3,
+            "monto": -39716.21
+          },
+          {
+            "periodo": 4,
+            "monto": -39711.07
+          },
+          {
+            "periodo": 5,
+            "monto": -39705.86
+          },
+          {
+            "periodo": 6,
+            "monto": -39700.58
+          },
+          {
+            "periodo": 7,
+            "monto": -39695.22
+          },
+          {
+            "periodo": 8,
+            "monto": -39689.79
+          },
+          {
+            "periodo": 9,
+            "monto": -39684.29
+          },
+          {
+            "periodo": 10,
+            "monto": -39678.7
+          },
+          {
+            "periodo": 11,
+            "monto": -39673.04
+          },
+          {
+            "periodo": 12,
+            "monto": -39667.3
+          },
+          {
+            "periodo": 13,
+            "monto": -39661.49
+          },
+          {
+            "periodo": 14,
+            "monto": -39655.59
+          },
+          {
+            "periodo": 15,
+            "monto": -39649.61
+          },
+          {
+            "periodo": 16,
+            "monto": -39643.54
+          },
+          {
+            "periodo": 17,
+            "monto": -39637.39
+          },
+          {
+            "periodo": 18,
+            "monto": -39631.16
+          },
+          {
+            "periodo": 19,
+            "monto": -39624.84
+          },
+          {
+            "periodo": 20,
+            "monto": -39618.43
+          },
+          {
+            "periodo": 21,
+            "monto": -39611.93
+          },
+          {
+            "periodo": 22,
+            "monto": -39605.34
+          },
+          {
+            "periodo": 23,
+            "monto": -39598.67
+          },
+          {
+            "periodo": 24,
+            "monto": -39591.89
+          },
+          {
+            "periodo": 25,
+            "monto": -39585.03
+          },
+          {
+            "periodo": 26,
+            "monto": -39578.07
+          },
+          {
+            "periodo": 27,
+            "monto": -39571.01
+          },
+          {
+            "periodo": 28,
+            "monto": -39563.85
+          },
+          {
+            "periodo": 29,
+            "monto": -39556.6
+          },
+          {
+            "periodo": 30,
+            "monto": -39549.24
+          },
+          {
+            "periodo": 31,
+            "monto": -39541.78
+          },
+          {
+            "periodo": 32,
+            "monto": -39534.22
+          },
+          {
+            "periodo": 33,
+            "monto": -39526.55
+          },
+          {
+            "periodo": 34,
+            "monto": -39518.78
+          },
+          {
+            "periodo": 35,
+            "monto": -39510.9
+          },
+          {
+            "periodo": 36,
+            "monto": -39502.91
+          },
+          {
+            "periodo": 37,
+            "monto": -39494.81
+          },
+          {
+            "periodo": 38,
+            "monto": -39486.59
+          },
+          {
+            "periodo": 39,
+            "monto": -39478.26
+          },
+          {
+            "periodo": 40,
+            "monto": -39469.82
+          },
+          {
+            "periodo": 41,
+            "monto": -39461.26
+          },
+          {
+            "periodo": 42,
+            "monto": -39452.58
+          },
+          {
+            "periodo": 43,
+            "monto": -39443.78
+          },
+          {
+            "periodo": 44,
+            "monto": -39434.85
+          },
+          {
+            "periodo": 45,
+            "monto": -39425.81
+          },
+          {
+            "periodo": 46,
+            "monto": -39416.63
+          },
+          {
+            "periodo": 47,
+            "monto": -39407.33
+          },
+          {
+            "periodo": 48,
+            "monto": -673031.2
+          }
+        ]
+      },
+      "createdAt": "2026-07-10T00:18:23.189Z"
+    }
+  ],
+  "vehicleOffers": [
+    {
+      "id": "o_l0hwpysvk",
+      "userId": "u_byi5mggg8",
+      "modelo": "Honda Accord",
+      "precio": 2112111,
+      "createdAt": "2026-07-10T00:18:10.904Z"
+    }
+  ],
+  "settings": {}
+}

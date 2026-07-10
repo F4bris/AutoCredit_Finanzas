@@ -1,0 +1,6 @@
+{
+  "name": "AutoCredit Perú",
+  "description": "Simulador de Crédito Vehicular con Compra Inteligente, Método Francés, periodos de gracia total/parcial e indicadores SBS (TCEA, VAN, TIR).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_API"]
+}
